@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- خلفية داكنة -->
+    <path
+        android:fillColor="#0D0D1A"
+        android:pathData="M0,0h108v108h-108z"/>
+    <!-- دائرة متدرجة -->
+    <path
+        android:fillColor="#9C27B0"
+        android:pathData="M54,20 a34,34 0 1,1 0,68 a34,34 0 1,1 0,-68z"/>
+    <!-- نقطة (.) -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M35,50 a5,5 0 1,1 0,10 a5,5 0 1,1 0,-10z"/>
+    <!-- شرطة (-) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M48,53 h25 a2,2 0 0,1 0,4 h-25 a2,2 0 0,1 0,-4z"/>
+</vector>
