@@ -18,8 +18,11 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: إعطاء صلاحية gradlew
-        run: chmod +x ./gradlew
+      - name: إعطاء صلاحية تشغيل gradlew
+        run: chmod +x gradlew
+
+      - name: إعداد Gradle Wrapper (حل مشكلة Permission)
+        run: ./gradlew wrapper
 
       - name: بناء APK
         run: ./gradlew assembleDebug
